@@ -37,7 +37,7 @@ defmodule Day1 do
 
 end
 
-{left, right} = Day1.parse_input("../aoc-2024/src/input/day1.txt")
+{left, right} = Day1.parse_input("inputs/day1.txt")
 
 ans1 = Day1.part1(left, right)
 IO.puts("Part 1: #{ans1}")
